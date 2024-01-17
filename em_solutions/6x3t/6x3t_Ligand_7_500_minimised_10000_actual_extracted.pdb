@@ -1,0 +1,28 @@
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-08-01
+HETATM    1  C1  UNL F   1     131.863 118.875 158.559  1.00  0.00           C
+HETATM    2  C2  UNL F   1     132.978 118.818 157.527  1.00  0.00           C
+HETATM    3  C3  UNL F   1     134.004 117.796 158.004  1.00  0.00           C
+HETATM    4  C4  UNL F   1     133.626 120.179 157.258  1.00  0.00           C
+HETATM    5  C5  UNL F   1     133.749 121.142 158.270  1.00  0.00           C
+HETATM    6  C6  UNL F   1     134.302 122.389 158.020  1.00  0.00           C
+HETATM    7  C7  UNL F   1     134.764 122.706 156.747  1.00  0.00           C
+HETATM    8  C8  UNL F   1     134.709 121.760 155.710  1.00  0.00           C
+HETATM    9  C9  UNL F   1     134.135 120.506 155.989  1.00  0.00           C
+HETATM   10  O1  UNL F   1     134.080 119.580 155.009  1.00  0.00           O
+HETATM   11  C10 UNL F   1     135.263 122.069 154.321  1.00  0.00           C
+HETATM   12  C11 UNL F   1     136.502 122.971 154.353  1.00  0.00           C
+HETATM   13  C12 UNL F   1     134.173 122.658 153.415  1.00  0.00           C
+CONECT    1    2
+CONECT   11    8   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT    2    3    4    1
+CONECT    3    2
+CONECT    4    2    5    9
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9   11
+CONECT    9    4    8   10
+CONECT   10    9
+END
