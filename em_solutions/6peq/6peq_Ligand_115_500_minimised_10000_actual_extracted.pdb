@@ -1,0 +1,56 @@
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-08-01
+HETATM    1  C1  UNL I   1     215.209 171.484 237.507  1.00  0.00           C
+HETATM    2  C2  UNL I   1     214.770 171.102 236.229  1.00  0.00           C
+HETATM    3  C3  UNL I   1     213.413 170.820 236.069  1.00  0.00           C
+HETATM    4  C4  UNL I   1     212.542 170.973 237.127  1.00  0.00           C
+HETATM    5  C5  UNL I   1     212.971 171.327 238.404  1.00  0.00           C
+HETATM    6  C6  UNL I   1     214.339 171.593 238.581  1.00  0.00           C
+HETATM    7  N1  UNL I   1     214.858 171.943 239.822  1.00  0.00           N
+HETATM    8  C7  UNL I   1     214.027 172.069 240.911  1.00  0.00           C
+HETATM    9  O1  UNL I   1     214.523 172.398 241.994  1.00  0.00           O
+HETATM   10  C8  UNL I   1     212.566 171.826 240.723  1.00  0.00           C
+HETATM   11  O2  UNL I   1     211.737 172.024 241.623  1.00  0.00           O
+HETATM   12  N2  UNL I   1     212.077 171.374 239.491  1.00  0.00           N
+HETATM   13  C9  UNL I   1     210.674 170.913 239.358  1.00  0.00           C
+HETATM   14  P1  UNL I   1     209.475 172.228 239.164  1.00  0.00           P
+HETATM   15  O3  UNL I   1     208.184 171.803 239.744  1.00  0.00           O
+HETATM   16  O4  UNL I   1     209.173 172.664 237.662  1.00  0.00           O
+HETATM   17  O5  UNL I   1     210.000 173.454 240.010  1.00  0.00           O
+HETATM   18  N3  UNL I   1     212.839 170.289 234.926  1.00  0.00           N
+HETATM   19  C10 UNL I   1     212.452 171.118 233.784  1.00  0.00           C
+HETATM   20  C11 UNL I   1     212.394 170.236 232.531  1.00  0.00           C
+HETATM   21  O6  UNL I   1     211.412 169.192 232.666  1.00  0.00           O
+HETATM   22  C12 UNL I   1     211.443 168.524 233.945  1.00  0.00           C
+HETATM   23  C13 UNL I   1     212.675 168.829 234.803  1.00  0.00           C
+HETATM   24  C14 UNL I   1     215.746 171.002 235.078  1.00  0.00           C
+HETATM   25  F1  UNL I   1     215.512 172.002 234.195  1.00  0.00           F
+HETATM   26  F2  UNL I   1     217.028 171.130 235.503  1.00  0.00           F
+HETATM   27  F3  UNL I   1     215.667 169.821 234.431  1.00  0.00           F
+CONECT    1    6    2
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   22   21   23
+CONECT   23   18   22
+CONECT   24   25   26   27    2
+CONECT    2   24    3    1
+CONECT    3   18    4    2
+CONECT    4    3    5
+CONECT    5    4    6   12
+CONECT    6    5    7    1
+CONECT    8    7    9   10
+CONECT   10    8   11   12
+CONECT   13   12   14
+CONECT   25   24
+CONECT   26   24
+CONECT   27   24
+CONECT    7    6    8
+CONECT   12    5   10   13
+CONECT   18   19   23    3
+CONECT    9    8
+CONECT   11   10
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14
+CONECT   21   20   22
+CONECT   14   16   17   13   15
+END
