@@ -1,0 +1,54 @@
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-07-20
+HETATM    1  C1  UNL E   1     196.726 190.508 180.800  1.00  0.00           C
+HETATM    2  C2  UNL E   1     197.914 189.857 180.826  1.00  0.00           C
+HETATM    3  C3  UNL E   1     198.878 190.242 181.747  1.00  0.00           C
+HETATM    4  C4  UNL E   1     198.727 191.365 182.569  1.00  0.00           C
+HETATM    5  C5  UNL E   1     197.486 192.015 182.499  1.00  0.00           C
+HETATM    6  C6  UNL E   1     196.543 191.633 181.584  1.00  0.00           C
+HETATM    7 CL1  UNL E   1     195.123 192.662 181.369  1.00  0.00          Cl
+HETATM    8 CL2  UNL E   1     199.980 191.869 183.672  1.00  0.00          Cl
+HETATM    9  C7  UNL E   1     200.171 189.527 181.713  1.00  0.00           C
+HETATM   10  C8  UNL E   1     200.570 188.809 182.811  1.00  0.00           C
+HETATM   11  C9  UNL E   1     201.754 188.042 182.753  1.00  0.00           C
+HETATM   12  C10 UNL E   1     202.659 188.151 181.651  1.00  0.00           C
+HETATM   13  C11 UNL E   1     202.266 189.011 180.546  1.00  0.00           C
+HETATM   14  C12 UNL E   1     201.036 189.690 180.599  1.00  0.00           C
+HETATM   15  C13 UNL E   1     203.123 189.137 179.300  1.00  0.00           C
+HETATM   16  P1  UNL E   1     204.575 190.085 179.543  1.00  0.00           P
+HETATM   17  O1  UNL E   1     205.618 189.790 178.572  1.00  0.00           O
+HETATM   18  O2  UNL E   1     205.216 189.904 180.991  1.00  0.00           O
+HETATM   19  O3  UNL E   1     204.214 191.617 179.396  1.00  0.00           O
+HETATM   20  O4  UNL E   1     203.744 187.402 181.619  1.00  0.00           O
+HETATM   21  C14 UNL E   1     202.002 187.095 183.871  1.00  0.00           C
+HETATM   22  C15 UNL E   1     202.866 187.710 185.039  1.00  0.00           C
+HETATM   23  C16 UNL E   1     203.593 186.584 185.763  1.00  0.00           C
+HETATM   24  O5  UNL E   1     203.425 186.338 186.913  1.00  0.00           O
+HETATM   25  O6  UNL E   1     204.309 185.783 184.940  1.00  0.00           O
+HETATM   26  N1  UNL E   1     203.841 188.657 184.374  1.00  0.00           N
+CONECT    1    2    6
+CONECT   12   11   13   20
+CONECT   13   12   14   15
+CONECT   14    9   13
+CONECT   15   13   16
+CONECT   21   11   22
+CONECT   22   21   23   26
+CONECT   23   22   24   25
+CONECT    2    1    3
+CONECT    3    2    4    9
+CONECT    4    3    5    8
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    9    3   10   14
+CONECT   10    9   11
+CONECT   11   10   12   21
+CONECT    7    6
+CONECT    8    4
+CONECT   26   22
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16
+CONECT   20   12
+CONECT   24   23
+CONECT   25   23
+CONECT   16   15   17   18   19
+END
